@@ -5,3 +5,4 @@ flask-ngrok==0.0.25
 Flask-RESTful==0.3.8
 Flask-WTF==0.14.3
 SQLAlchemy==1.2.15
+gunicorn==20.0.4
