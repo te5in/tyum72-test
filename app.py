@@ -443,5 +443,4 @@ def get_cur_user():
 
 
 if __name__ == '__main__':
-    app.debug = True
-    app.run(port=8080, host='127.0.0.1')
+    app.run()
