@@ -250,8 +250,8 @@ def get_state(string):
 
 
 # Всё что нужно для домино
-domino_start_time = datetime.datetime(2020, 4, 19, 21, 14, 30)
-domino_end_time = datetime.datetime(2020, 4, 19, 21, 15, 30)
+domino_start_time = datetime.datetime(2020, 4, 30, 23, 45, 30)
+domino_end_time = datetime.datetime(2020, 4, 30, 23, 59, 59)
 domino_keys = list(map(str, range(1, 29)))
 domino_tasks_names = {'0-0': '1', '0-1': '2', '0-2': '3', '0-3': '4', '0-4': '5', '0-5': '6',
                       '0-6': '7', '1-1': '8', '1-2': '9',
